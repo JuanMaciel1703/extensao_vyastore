@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Vyastore",
+  "version": "1.0",
+  "description": "Extensão que pega automaticamente os dados dos produtos.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Vyastore"
+  },
+  "icons": {
+    "16": "favicon_1.png"
+  },
+  "permissions": ["tabs", "storage", "<all_urls>"]
+}
